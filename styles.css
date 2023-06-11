@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("adare.jpg");
+    background-color: rgba(0, 0, 0, 0.322);
+    background-blend-mode: color;
+    background-repeat:no-repeat;
+    text-align: center;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 56px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.con {
+    margin: 0 auto;
+    background: #ffffffe0;
+    width: 28%;
+    text-align: left;
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.sub-title {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.966);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width: 767px) {
+
+    body {
+        text-align: center;
+        padding: 2rem;
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .con {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .title2 {
+        padding-top: 20px;
+    } 
+
+}
+
+@media (max-width: 800px) {
+
+    body {
+        text-align: center;
+        padding: 2rem;
+        margin: 0;
+        /* background-size: cover; */
+        /* background-position: center; */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .con {
+        width: 100%;
+        margin-top: 20px;
+        /* margin-left: 10px; */
+    }
+    
+    .title2 {
+        margin-top: 20px;
+    } 
+
+}
